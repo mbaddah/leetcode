@@ -1,7 +1,7 @@
 package leetcode;
 
 public class TwoPointers {
-    public boolean isPalindromeUsingTwoPointers(String s) {
+    public static boolean isPalindromeUsingTwoPointers(String s) {
         int left = 0;
         int right = s.length() - 1;
 

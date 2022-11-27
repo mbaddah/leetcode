@@ -13,7 +13,7 @@ import java.util.List;
 
 public class FizzBuzz {
 
-    public List<String> fizzBuzzSolution(int n) {
+    public static List<String> fizzBuzzSolution(int n) {
         List<String> answer = new ArrayList<String>();
 
         for(int i = 1; i <= n; i++) {

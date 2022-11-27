@@ -1,7 +1,7 @@
 package leetcode;
 
 public class Palindrome {
-    public boolean isPalindrome(int x) {
+    public static boolean isPalindrome(int x) {
         String str = Integer.toString(x);
         StringBuilder sb = new StringBuilder(str);
         String reversedX = sb.reverse().toString();
