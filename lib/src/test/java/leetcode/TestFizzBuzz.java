@@ -10,8 +10,7 @@ public class TestFizzBuzz {
 
     @Test
     public void testFizzBuzzThree() {
-        FizzBuzz fizzBuzz = new FizzBuzz();
-        List<String> actual = fizzBuzz.fizzBuzzSolution(3);
+        List<String> actual = FizzBuzz.fizzBuzzSolution(3);
         List<String> expected = new ArrayList<String>();
         expected.add("1");
         expected.add("2");
@@ -23,8 +22,7 @@ public class TestFizzBuzz {
 
     @Test
     public void testFizzBuzzFive() {
-        FizzBuzz fizzBuzz = new FizzBuzz();
-        List<String> actual = fizzBuzz.fizzBuzzSolution(5);
+        List<String> actual = FizzBuzz.fizzBuzzSolution(5);
         List<String> expected = new ArrayList<String>();
         expected.add("1");
         expected.add("2");

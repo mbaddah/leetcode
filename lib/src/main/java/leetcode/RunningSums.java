@@ -2,7 +2,7 @@ package leetcode;
 
 public class RunningSums {
 
-    public int[] runningSum(int[] nums) {
+    public static int[] runningSumSolution(int[] nums) {
 
         int[] runningSums = new int[nums.length];
         runningSums[0] = nums[0];
