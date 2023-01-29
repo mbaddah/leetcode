@@ -8,9 +8,9 @@ public class TestNumberStepsZero {
 
     @Test
     public void testNumberStepsZero() {
-        int numberSteps14 = NumberStepsZero.Solution(14);
-        int numberSteps8 = NumberStepsZero.Solution(8);
-        int numberSteps123 = NumberStepsZero.Solution(123);
+        int numberSteps14 = NumberStepsZero.countNumberStepsToZero(14);
+        int numberSteps8 = NumberStepsZero.countNumberStepsToZero(8);
+        int numberSteps123 = NumberStepsZero.countNumberStepsToZero(123);
 
 
         assertEquals(6, numberSteps14);

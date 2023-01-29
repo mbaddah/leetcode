@@ -1,7 +1,6 @@
 package leetcode;
 
 //  Problem 1672
-
 public class RichestCustomerWealth {
     public static int maximumWealthSolution(int[][] accounts) {
         int maximum = 0;

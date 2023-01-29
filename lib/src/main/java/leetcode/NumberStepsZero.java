@@ -1,7 +1,10 @@
 package leetcode;
 
+import lombok.NoArgsConstructor;
+
+@NoArgsConstructor
 public class NumberStepsZero {
-    public static int Solution(int num) {
+    public static int countNumberStepsToZero(int num) {
         int counter = 0;
         while(num != 0) {
             if(num % 2 == 0) {

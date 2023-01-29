@@ -8,9 +8,12 @@ package leetcode;
 //
 
 
+import lombok.NoArgsConstructor;
+
 import java.util.ArrayList;
 import java.util.List;
 
+@NoArgsConstructor
 public class FizzBuzz {
 
     public static List<String> fizzBuzzSolution(int n) {
